@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OLX</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="topnav">
+  <div class="logo"><a href="/">
+    <svg width="40px" height="30px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531
+    -213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
+</svg></a></div>
+
+<div class="dropdown2"><button><b>+ SELL</b></button></div>
+
+  <a onclick="login()" href="#login"><b>Login</b></a>
+  <div class="dropdown">
+    <button class="dropbtn">ENGLISH
+      <i class="fafa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">HINDI</a>
+      <a href="#">TAMIL</a>
+      <a href="#">GUJRATI</a>
+    </div>
+  </div>
+
+  
+
+  <div class="search-container">        
+    <form>   
+      <input type="text" placeholder="Search.." name="search">
+      <button type="sell"><i class="fa fa-search"></i> <span class="sb-icon-search"></span></button>
+     
+    </form>
+  </div>
+  <div class="search-container2">        
+    <form>   
+      <input type="text2" placeholder="Search.." name="search">
+    </form>
+</div>
+</div>
+<div >
+      <select id="filter">
+        <option value="all">ALL CATEGORIES</option>
+        <option value="Casual">OLX Autos (Cars)</option>
+        <option value="festive">Jobs</option>
+        <option value="party">Electronics & Appliances</option>
+        <option value="formal">Fashion</option>
+        <option value="workout">Properties</option>
+        <option value="sports">Mobiles</option>
+        <option value="formal">Commercial Vehicles & Spares</option>
+        <option value="workout">Pets</option>
+        <option value="sports">Bikes</option>
+        <option value="workout">Furniture</option>
+        <option value="sports">Services</option>
+         </select>
+  </div>
+  
+<nav>
+     <div class="a1">        
+       <a href="ht" title="" class="">Cars</a>
+              
+              
+                  <a href="hta" title="" class="">Motorcycles</a>
+              
+            
+                  <a href="" title="" class="">Mobile Phones</a>
+              
+               
+                  <a href="htt" title="" class="">For Sale: Houses & Apartments</a>
+            
+            
+                  <a href="https:" title="" class="">Scooters</a>
+            
+            
+                  <a href="ht" title="" class="">Commercial & Other Vehicles</a>
+            
+            
+                  <a href="https" title="" class="">For Rent: Houses & Apartments</a>
+                
+    
+  </div>
+</nav>   
+
+
+
+<div class="bg-container">
+  <div><div class="banner">
+    <button class="button">Sell Car</button>
+    <img src="">
+    </div> </div>
+</div>
+
+<div>
+
+  <h1>Based on your last search</h1>
+
+  <div class="display-container">
+
+  </div>
+   
+  </div>
+  
+
+
+
+</div>
+
+
+
+<h1>Fresh recommendations</h1>
+  <div id="container"></div>
+
+
+
+
+
+<footer>
+  <h4>Other Countries  <a href="">Pakistan - South Africa - Indonesia</a></h4>
+
+  <h5>Free Classifieds in India  <a href="">Copyright © 2006-2022 OLX</a></h5>
+</footer>
+<script>
+  function login() {
+    // Complete to show an alert with your first name 
+    alert("already Sign in");
+}
+
+  var Data = [
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1549,
+       strikedoffprice: 1799,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1749,
+     
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 699,
+       strikedoffprice: 1245,
+    
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 2799,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1099,
+       strikedoffprice: 1249,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1489,
+     
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1459,
+       strikedoffprice: 1235,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 849,
+       strikedoffprice: 2599,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1550,
+       strikedoffprice: 2599,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 6599,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 949,
+       strikedoffprice: 1899,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1549,
+       strikedoffprice: 1799,
+   
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1749,
+   
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 699,
+       strikedoffprice: 1245,
+    
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 2799,
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1099,
+       strikedoffprice: 1249,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1489,
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1459,
+       strikedoffprice: 1235,
+    
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 849,
+       strikedoffprice: 2599,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1550,
+       strikedoffprice: 2599,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 6599,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 949,
+       strikedoffprice: 1899,
+   
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1549,
+       strikedoffprice: 1799,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1749,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 699,
+       strikedoffprice: 1245,
+      
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+    
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+     
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 2799,
+       
+     },
+     {
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1099,
+       strikedoffprice: 1249,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1489,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1459,
+       strikedoffprice: 1235,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 849,
+       strikedoffprice: 2599,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1550,
+       strikedoffprice: 2599,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 6599,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 949,
+       strikedoffprice: 1899,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1549,
+       strikedoffprice: 1799,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1749,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 699,
+       strikedoffprice: 1245,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+ 
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+   
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 2799,
+     
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1099,
+       strikedoffprice: 1249,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1489,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1459,
+       strikedoffprice: 1235,
+   
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 849,
+       strikedoffprice: 2599,
+     
+     },
+     { 
+       image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1550,
+       strikedoffprice: 2599,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 6599,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 949,
+       strikedoffprice: 1899,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1549,
+       strikedoffprice: 1799,
+     
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1749,
+     
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 699,
+       strikedoffprice: 1245,
+    
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 749,
+       strikedoffprice: 1299,
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 2799,
+    
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1099,
+       strikedoffprice: 1249,
+     
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1249,
+       strikedoffprice: 1489,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1459,
+       strikedoffprice: 1235,
+      
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 849,
+       strikedoffprice: 2599,
+       
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1550,
+       strikedoffprice: 2599,
+     
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 1399,
+       strikedoffprice: 6599,
+     },
+     {
+      image_url:
+         "https://content.shop4reebok.com/static/Product-FQ5266/UNISEX_TRAINING_BAGS_FQ5266_1.jpg.plp",
+       name: "UNISEX REEBOK TRAINING ACTIVE CORE BACKPACK - MEDIUM",
+       price: 949,
+       strikedoffprice: 1899,
+     },
+   ];
+     Data.forEach(function(elem){
+     let box = document.createElement("div")
+     let avatar= document.createElement("img")
+     avatar.setAttribute("src",elem.image_url)
+ 
+     let price= document.createElement("h1")
+     price.innerText= elem.price;
+
+     let Pname= document.createElement("p")
+     Pname.innerText=elem.name;
+     Pname.style.color="gray";
+ 
+  
+ 
+ 
+      box.append(avatar,price,Pname,)
+     document.querySelector("#container").append(box)
+   })
+ </script>
+</body>
+</html>
